@@ -426,10 +426,7 @@ public class Main {
             minVal = AList.get(0);
             maxVal = AList.get(AList.size()-1);
             result = Math.abs(minVal-maxVal);
-
-            for (int n = 0; n < AList.size() ; n++) {
-                System.out.println("List["+ n + "]=" + AList.get(n));
-            }
+            
 
             return result;
         }
